@@ -1,4 +1,4 @@
-FROM node
+FROM node:12.2.0
 
 RUN apt-get update && apt-get upgrade -y \
     && apt-get clean
